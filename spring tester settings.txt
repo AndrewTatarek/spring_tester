@@ -1,0 +1,2 @@
+11 	The arduino port
+13	The load cell port
