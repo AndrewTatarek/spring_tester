@@ -55,7 +55,7 @@ class loadCell(autoSetup.serialAutoSetup):
     def loadIsStable(self):
         'returns True if the load is stable'
         self.load()
-        # 5 is the allowable diffrence betteen consecutive readings
+        # 5 is the allowable diffrence between consecutive readings
         # this has units of newtons
         return self.loadLog[-2]-5 < self.loadLog[-1] < self.loadLog[-2]+5
         
